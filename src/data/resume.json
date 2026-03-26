@@ -1,0 +1,157 @@
+{
+  "basics": {
+    "name": "Minal Raval",
+    "title": "Software Developer | Backend Developer (Laravel & CodeIgniter)",
+    "summary": "Result-oriented Software Developer with 3+ years of experience in PHP-based backend development, specializing in Laravel and CodeIgniter. Proven ability to design scalable applications, develop secure RESTful APIs, and manage end-to-end project lifecycles. Experienced in leading small teams, coordinating with clients, and delivering high-quality solutions on time. Strong problem-solving skills with a focus on performance, clean architecture, and continuous improvement.",
+    "location": "Bhavnagar, Gujarat",
+    "email": "minalraval06@gmail.com",
+    "phone": "+91 7820080611",
+    "links": []
+  },
+  "experience": [
+    {
+      "company": "Whizpals Tech",
+      "location": "Bhavnagar",
+      "role": "Backend Lead Developer",
+      "dates": "Nov 2023 – Present",
+      "bullets": [
+        "Lead development of backend architecture using Laravel and CodeIgniter for multiple client projects.",
+        "Designed, developed, and maintained scalable RESTful APIs with secure authentication.",
+        "Optimized MySQL database schemas and queries to improve application performance.",
+        "Integrated third-party services including Google Maps, Twilio SMS, and Zoom APIs.",
+        "Managed and mentored backend developers, conducted code reviews, and ensured coding standards.",
+        "Collaborated closely with frontend teams and stakeholders to translate business requirements into technical solutions.",
+        "Owned project timelines, task allocation, and successful delivery of features."
+      ],
+      "metrics": [
+        "3+ Years Experience",
+        "Lead Developer",
+        "Scalable APIs"
+      ]
+    },
+    {
+      "company": "Hyvikk Solutions",
+      "location": "Bhavnagar",
+      "role": "Backend Developer",
+      "dates": "Nov 2022 – Nov 2023",
+      "bullets": [
+        "Developed backend modules and business logic using PHP and Laravel.",
+        "Built and consumed REST APIs and handled third-party integrations.",
+        "Improved application stability through debugging, refactoring, and optimization.",
+        "Worked with Git for version control and assisted in deployment activities.",
+        "Participated in requirement analysis and implemented client-specific features."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Fleet Manager",
+      "stack": "Laravel, MySQL, Google Maps API, Android Push Notifications",
+      "bullets": [
+        "Developed full admin panel with CRUD operations, driver APIs, Google Maps live location tracking, and Android push notifications."
+      ]
+    },
+    {
+      "title": "My Nuceria",
+      "stack": "PHP, Google Translate API",
+      "bullets": [
+        "Built dynamic admin system and implemented multilingual frontend using Google Translate API."
+      ]
+    },
+    {
+      "title": "Alankar Publications",
+      "stack": "PHP, MySQL",
+      "bullets": [
+        "Created online book catalog with advanced search and book preview functionality."
+      ]
+    },
+    {
+      "title": "FunAndMoving.com",
+      "stack": "PHP, Twilio SMS",
+      "bullets": [
+        "Developed CMS for landing page management with multilingual support and Twilio SMS integration."
+      ]
+    },
+    {
+      "title": "Telehealth Platform (In Progress)",
+      "stack": "Laravel, Zoom API",
+      "bullets": [
+        "Designed hospital management system with role-based access and Zoom API integration for online consultations."
+      ]
+    },
+    {
+      "title": "Marcotex",
+      "stack": "Frontend, UI/UX",
+      "bullets": [
+        "Enhanced UI/UX performance and developed responsive pages."
+      ]
+    },
+    {
+      "title": "Two12 & Nilayam",
+      "stack": "Custom PHP",
+      "bullets": [
+        "Developed complete custom websites from scratch based on client requirements."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages & Backend",
+      "items": ["PHP", "Laravel", "CodeIgniter"]
+    },
+    {
+      "category": "Databases",
+      "items": ["MySQL"]
+    },
+    {
+      "category": "Frontend Technologies",
+      "items": ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
+    },
+    {
+      "category": "API & Integrations",
+      "items": ["RESTful APIs", "Google Maps API", "Twilio API", "Zoom API", "Google Translate API"]
+    },
+    {
+      "category": "Tools & Platforms",
+      "items": ["Git", "Postman"]
+    },
+    {
+      "category": "Other Skills",
+      "items": ["Database Design", "API Security", "Debugging", "Deployment Support"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Computer Applications (MCA)",
+      "institution": "Bhavnagar University",
+      "year": "2022"
+    },
+    {
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "institution": "Bhavnagar University",
+      "year": "2020"
+    }
+  ],
+  "strengths": [
+    "Backend Architecture & API Design",
+    "Team & Project Management",
+    "Leadership & Mentoring",
+    "Problem Solving & Debugging",
+    "Quick Learner & Adaptability",
+    "Client Communication"
+  ],
+  "achievements": [
+    {
+      "title": "3+ Years Experience",
+      "context": "PHP-based backend development"
+    },
+    {
+      "title": "Backend Lead",
+      "context": "Leading small teams and coordinating with clients"
+    },
+    {
+      "title": "Scalable Architecture",
+      "context": "Proven ability to design scalable applications"
+    }
+  ]
+}
