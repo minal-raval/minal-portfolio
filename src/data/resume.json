@@ -80,6 +80,17 @@
       ]
     },
     {
+      "title": "DrNow",
+      "stack": "HTML, CSS, JavaScript, PocketBase API",
+      "bullets": [
+        "Developed a dynamic healthcare web application using HTML, CSS, and JavaScript.",
+        "Integrated PocketBase API to manage website content dynamically.",
+        "Built user-friendly interfaces for secure data input and retrieval.",
+        "Designed scalable data handling for managing medical information efficiently.",
+        "Contributed to improving accessibility and digital management of prescriptions."
+      ]
+    },
+    {
       "title": "Marcotex",
       "stack": "Frontend, UI/UX",
       "bullets": [
