@@ -2,10 +2,31 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Download } from 'lucide-react';
 import resumeData from '../data/resume.json';
+import resumePdf from '../data/Minal_Raval_CV.pdf';
 
 const Hero: React.FC = () => {
   const scrollToExperience = () => {
     document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const handleResumeClick = () => {
+    const printWindow = window.open(resumePdf, '_blank');
+
+    if (printWindow) {
+      printWindow.addEventListener('load', () => {
+        printWindow.focus();
+        printWindow.print();
+      });
+      return;
+    }
+
+    // Fallback: if popup is blocked, trigger direct download.
+    const link = document.createElement('a');
+    link.href = resumePdf;
+    link.download = 'Minal_Raval_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -53,13 +74,14 @@ const Hero: React.FC = () => {
             <div className="absolute inset-0 bg-blue-500 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
           </button>
 
-          <a
-            href="#"
+          <button
+            type="button"
+            onClick={handleResumeClick}
             className="flex items-center gap-2 px-8 py-4 bg-white/5 text-white font-bold rounded-full border border-white/10 hover:bg-white/10 transition-all hover:scale-105 active:scale-95"
           >
             <Download size={20} />
             Download Resume
-          </a>
+          </button>
         </motion.div>
       </div>
 
