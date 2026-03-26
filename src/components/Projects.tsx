@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { ExternalLink, Code2, Layers } from 'lucide-react';
+import { Code2, Layers } from 'lucide-react';
 import resumeData from '../data/resume.json';
 
 const Projects: React.FC = () => {
@@ -28,11 +28,10 @@ const Projects: React.FC = () => {
               whileHover={{ y: -5 }}
               className="group relative p-8 rounded-3xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-300"
             >
-              <div className="flex justify-between items-start mb-6">
+              <div className="mb-6">
                 <div className="p-3 rounded-xl bg-blue-500/10 text-blue-400">
                   <Layers size={24} />
                 </div>
-                <ExternalLink className="text-white/20 group-hover:text-blue-400 transition-colors" size={20} />
               </div>
 
               <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">

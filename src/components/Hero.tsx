@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Download, ChevronDown } from 'lucide-react';
+import { Download } from 'lucide-react';
 import resumeData from '../data/resume.json';
 
 const Hero: React.FC = () => {
@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-20">
+    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-20 pb-36 md:pb-56">
       <div className="max-w-5xl w-full text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -63,23 +63,8 @@ const Hero: React.FC = () => {
         </motion.div>
       </div>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2"
-      >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-          className="text-white/20"
-        >
-          <ChevronDown size={32} />
-        </motion.div>
-      </motion.div>
-
       {/* Impact Strip */}
-      <div className="absolute bottom-24 w-full overflow-hidden py-4 bg-white/5 backdrop-blur-sm border-y border-white/10 hidden md:block">
+      <div className="absolute bottom-0 w-full overflow-hidden py-4 bg-white/5 backdrop-blur-sm border-y border-white/10 hidden md:block">
         <div className="flex justify-center gap-24">
           {resumeData.achievements.map((item, i) => (
             <div key={i} className="flex flex-col items-center">
